@@ -6,6 +6,5 @@ run:
 	@echo "enter the name of branch (main)"; \
 	read BRANCH; \
 	git push origin $$BRANCH; \
-	read ;\
 	@echo "REPOSITORY UPDATED SUCCESFUL !!"
 	git log -n 3
