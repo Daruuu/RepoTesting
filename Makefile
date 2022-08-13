@@ -1,5 +1,6 @@
 #script to automate my respository update with MAKRFILE
 run:
+	git status
 	git add .
 		@echo "Add the commit message:"; \
 	read COMMITMESSAGE; \
