@@ -9,5 +9,5 @@ git commit -m "$COMMITMESSAGE"
 	read BRANCH
 git push origin $BRANCH
 	read
-	echo "------------REPOSITORY UPDATED SUCCESFUL!!------------"
+	echo "<<<<<<<<<<<<<<<REPOSITORY UPDATED SUCCESFUL!!>>>>>>>>>>>>>>>"
 git log -n 3
